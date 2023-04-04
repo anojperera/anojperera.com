@@ -7,6 +7,7 @@ featured: true
 draft: false
 tags:
   - docs
+  - opinion
 ogImage: ""
 description: How and why I use nvim as my editor of choice.
 ---
