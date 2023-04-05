@@ -15,7 +15,7 @@ Here's my nvim config.
 
 ## Folder Structure
 
-Below folder structure in `.config/nvim`.
+Below folder structure in `~/.config/nvim`.
 
 ```
 ├── after
