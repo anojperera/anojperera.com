@@ -3,6 +3,7 @@
 *.jpg
 *.png
 *.svg
+*.tf
 # Except these files & folders
 !/src
 !/public
