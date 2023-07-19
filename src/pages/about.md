@@ -29,10 +29,6 @@ Although sometimes its not always possible. I've also used `ECS / EKS on AWS Far
 writing infrastructure as code but my preferred choice would be `terraform`. I've ignored docker for a long time but recently got the hang of it and really
 begun to love it.
 
-## Technologies
-
-Here are certain features of this site.
-
 ### Programming languages
 
 - Python
