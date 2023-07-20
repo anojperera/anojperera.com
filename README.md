@@ -15,7 +15,7 @@ This is my personal website build using AstroJS and based on theme AstroPaper. I
 - [x] sitemap & rss feed
 - [x] followed best practices
 - [x] highly customizable
-- [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
+- [x] dynamic OG image generation for blog posts
 
 ## ✅ Lighthouse Score
 
