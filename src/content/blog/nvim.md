@@ -8,6 +8,7 @@ draft: false
 tags:
   - docs
   - opinion
+  - vim
 ogImage: ""
 description: How and why I use nvim as my editor of choice.
 ---

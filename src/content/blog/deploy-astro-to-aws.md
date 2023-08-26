@@ -7,6 +7,7 @@ featured: true
 draft: false
 tags:
   - deploy
+  - aws
 ogImage: ""
 description: Deploying an Astro Site to serverless infrastructure in AWS using,
   CoudFront and S3 and use serverless framework.

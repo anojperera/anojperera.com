@@ -9,6 +9,7 @@ tags:
   - plugins
   - article
   - opinion
+  - vim
 ogImage: ""
 description:
   Been using Vim / Nvim for a while and after 14 years of emacs do I miss it?.

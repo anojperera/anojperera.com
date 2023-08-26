@@ -21,6 +21,9 @@ export default defineConfig({
     sitemap(),
     mdx(),
   ],
+  experimental: {
+    assets: true,
+  },
   markdown: {
     remarkPlugins: [
       remarkToc,

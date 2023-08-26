@@ -7,6 +7,7 @@ featured: true
 draft: false
 tags:
   - config
+  - vim
 ogImage: ""
 description: My nvim config.
 ---
