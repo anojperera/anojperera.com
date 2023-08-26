@@ -11,6 +11,7 @@
     "astro": "astro",
     "format:check": "prettier --plugin-search-dir=. --check .",
     "format": "prettier --plugin-search-dir=. --write .",
+    "deploy": "aws s3 cp dist/ s3://anojperera.com/ --recursive --profile anoj",
     "cz": "cz",
     "prepare": "husky install",
     "lint": "eslint ."
