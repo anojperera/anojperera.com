@@ -17,3 +17,5 @@ code. Vim ships with `strftime` method. You can use that while in `insert-mode`,
 
 Thats it. You can always add a keyboard shortcut.
 <img src="/assets/insert_date_time.gif" alt=Inserting Date Time />
+
+Link to further options [strftime](https://man7.org/linux/man-pages/man3/strftime.3.html)
