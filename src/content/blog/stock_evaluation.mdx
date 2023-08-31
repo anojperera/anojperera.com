@@ -12,26 +12,32 @@ description: "Small program to calculate the percentage value of stocks."
 ---
 
 - Quick program to calculate drop or increae in percentage of stock values.
+
   <form class="w-full max-w-sm">
-    <div class="border-teal-500 flex items-center border-b py-2">
-      <input
-        class="bg-transparent text-gray-700 mr-3 w-full appearance-none border-none py-1 px-2 leading-tight focus:outline-none"
-        type="number"
-        step=".0001"
-        placeholder="Value"
-        aria-label="Stock Value"
-      />
-      <button
-        class="bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-white flex-shrink-0 rounded border-4 py-1 px-2 text-sm"
-        type="cancel"
-      >
-        Clear
+  <div class="border-teal-500 flex items-center border-b py-2">
+    <input
+      class="bg-transparent text-gray-700 mr-3 w-full appearance-none border-none py-1 px-2 leading-tight focus:outline-none"
+      type="number"
+      step=".0001"
+      placeholder="Value"
+      aria-label="Stock Value"
+    />
+    <button
+      class="bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-white flex-shrink-0 rounded border-4 py-1 px-2 text-sm"
+      type="cancel"
+    >
+      Clear
+    </button>
+    <button
+      class="border-transparent text-teal-500 hover:text-teal-800 flex-shrink-0 rounded border-4 py-1 px-2 text-sm"
+      type="submit"
+    >
+      Gen
+    </button>
+
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="button" onClick={(event) => console.log(event)}>
+        Button
       </button>
-      <button
-        class="border-transparent text-teal-500 hover:text-teal-800 flex-shrink-0 rounded border-4 py-1 px-2 text-sm"
-        type="submit"
-      >
-        Gen
-      </button>
+
     </div>
-  </form>
+</form>
