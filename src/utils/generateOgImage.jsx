@@ -1,25 +1,23 @@
-import satori, { SatoriOptions } from "satori";
+import satori from "satori";
 import { SITE } from "@config";
 
 const fetchFonts = async () => {
-  // Regular Font
   const fontFileRegular = await fetch(
     "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
   );
-  const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
+  const fontRegular = await fontFileRegular.arrayBuffer();
 
-  // Bold Font
   const fontFileBold = await fetch(
     "https://www.1001fonts.com/download/font/ibm-plex-mono.bold.ttf"
   );
-  const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
+  const fontBold = await fontFileBold.arrayBuffer();
 
   return { fontRegular, fontBold };
 };
 
 const { fontRegular, fontBold } = await fetchFonts();
 
-const ogImage = (text: string) => {
+const ogImage = text => {
   return (
     <div
       style={{
@@ -113,7 +111,7 @@ const ogImage = (text: string) => {
   );
 };
 
-const options: SatoriOptions = {
+const options = {
   width: 1200,
   height: 630,
   embedFont: true,

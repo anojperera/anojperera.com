@@ -1,5 +1,3 @@
-import type { SocialObjects } from "./types";
-
 export const SITE = {
   website: "https://anojperera.com",
   author: "Anoj Perera",
@@ -17,7 +15,7 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
-export const SOCIALS: SocialObjects = [
+export const SOCIALS = [
   {
     name: "Github",
     href: "https://github.com/anojperera",

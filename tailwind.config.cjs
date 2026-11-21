@@ -27,6 +27,7 @@ module.exports = {
         base: withOpacity("--color-text-base"),
         accent: withOpacity("--color-accent"),
         inverted: withOpacity("--color-fill"),
+        muted: withOpacity("--color-muted"),
       },
     },
     backgroundColor: {
@@ -41,6 +42,7 @@ module.exports = {
     outlineColor: {
       skin: {
         fill: withOpacity("--color-accent"),
+        base: withOpacity("--color-text-base"),
       },
     },
     borderColor: {
@@ -58,7 +60,13 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["IBM Plex Mono", "monospace"],
+      sans: [
+        "IBM Plex Sans",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif",
+      ],
+      mono: ["IBM Plex Mono", "ui-monospace", "monospace"],
     },
     // },
   },

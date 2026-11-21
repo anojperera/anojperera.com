@@ -1,20 +1,30 @@
 ---
-// Component imports
 import Layout from "@layouts/Layout.astro";
 ---
 
 <Layout>
-  <section class="flex flex-1 flex-col justify-between p-6">
-    <!-- Welcome -->
-    <div
-      class="mx-auto flex max-w-xl flex-1 flex-col justify-center space-y-10"
-    >
-      <div class="space-y-2 text-center">
-        <a href="/Home">
-          <h1 class="Liberation Mono text-9xl font-semibold italic">AMP</h1>
-          <p class="italic">All about me</p>
-        </a>
-      </div>
-    </div>
+  <section class="splash-screen">
+    <a href="/map" class="splash">
+      <h1>AMP</h1>
+      <p>All about me</p>
+    </a>
   </section>
 </Layout>
+
+<style>
+  .splash-screen {
+    @apply flex min-h-screen w-full max-w-none flex-1 flex-col items-center justify-center px-6 text-center;
+  }
+  .splash {
+    @apply flex flex-col items-center;
+  }
+  .splash h1 {
+    @apply font-mono text-[clamp(4.75rem,18vw,7.5rem)] font-medium leading-none tracking-tight text-skin-accent;
+  }
+  .splash p {
+    @apply mt-6 text-lg text-skin-muted;
+  }
+  .splash:hover p {
+    @apply underline underline-offset-4;
+  }
+</style>

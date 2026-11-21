@@ -1,8 +1,8 @@
 ---
 author: Anoj Perera
-pubDateTime: 2023-12-31T17:41:46 
+pubDatetime: 2023-12-31T17:41:46 
 title: Setting up a raspberry pi as a local mongo server
-postSlug:-setting-up-a-raspberry-pi-as-a-local-mongo-server
+postSlug: "-setting-up-a-raspberry-pi-as-a-local-mongo-server"
 featured: true
 draft: false
 tags:
@@ -13,7 +13,7 @@ ogImage: ""
 description:
   How to set up a raspberry pi server for hosting MongoDB and connect with your 
   cloud provider.
-___
+---
 
 # Challenge.
 A little pet project I was working on needed a document db store. My solution was going to be in AWS therefore I looked 
